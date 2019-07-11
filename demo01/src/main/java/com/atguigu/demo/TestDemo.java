@@ -19,7 +19,7 @@ public class TestDemo {
 //
 //        System.out.println("maxMemory:"+maxMemory/(double)1024/1024+"M");
 //        System.out.println("totalMemory:"+totalMemory/(double)1024/1024+"M");
-
+        //test OOM OutOfMemoryError java heap space
         String str="aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa";
         while(true){
             str+=str+new Random().nextInt(88888888) + new Random().nextInt(999999999) ;
