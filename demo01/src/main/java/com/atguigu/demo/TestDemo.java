@@ -23,6 +23,8 @@ public class TestDemo {
         String str="aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa";
         while(true){
             str+=str+new Random().nextInt(88888888) + new Random().nextInt(999999999) ;
+            //123
+
         }
     }
 }
